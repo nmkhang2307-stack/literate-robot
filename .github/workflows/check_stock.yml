@@ -2,7 +2,7 @@ name: Check ShopVNB Stock Every 15 Minutes
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # chạy mỗi 15 phút
+    - cron: "*/1 * * * *"  # chạy mỗi 1 phút
   workflow_dispatch:        # cho phép chạy thủ công
 
 jobs:
